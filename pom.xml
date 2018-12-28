@@ -56,4 +56,10 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+   	   <releaseRepository>
+     	      <id>LocalTest</id>
+     	      <url>http://localhost:8081/nexus/content/repositories/LocalTest</url>
+  	    </releaseRepository>
+	</distributionManagement>
 </project>
