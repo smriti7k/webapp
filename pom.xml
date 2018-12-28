@@ -70,9 +70,16 @@
 		</plugins>
 	</build>
 	<distributionManagement>
-   	   <releaseRepository>
+   	   <repository>
      	      <id>LocalTest</id>
-     	      <url>http://localhost:8081/nexus/content/repositories/LocalTest</url>
-  	    </releaseRepository>
+	      <name>HelloWorld</name>
+     	      <url>http://localhost:8081/nexus/content/repositories/LocalTest/</url>
+  	    </repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+	      	 	 <name>SAMPLE-Snap</name>
+     	                 <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>	
+		</snapshotRepository>
+				     
 	</distributionManagement>
 </project>
