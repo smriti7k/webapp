@@ -59,6 +59,7 @@
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
 			</plugin>
+			<!--
 			<plugin>
    				<artifactId>maven-deploy-plugin</artifactId>
    				<version>2.8.1</version>
@@ -71,10 +72,10 @@
          					</goals>
       					</execution>
    				</executions>
-			</plugin>
+			</plugin> -->
 		</plugins>
 	</build>
-	<distributionManagement>
+	<!--<distributionManagement>
    	   <repository>
      	      <id>LocalTest</id>
 	      <name>HelloWorld</name>
@@ -86,5 +87,5 @@
      	                 <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>	
 		</snapshotRepository>
 				     
-	</distributionManagement>
+	</distributionManagement>  -->
 </project>
